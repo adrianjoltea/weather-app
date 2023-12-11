@@ -60,7 +60,10 @@ function Header({ onCityDetails, city, setCity, setIsLoading, setErrorForm }) {
           setErrorForm(false);
           setIsLoading(true);
           const res = await fetch(
-            `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=5`
+            `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=3`,
+            {
+              referrerPolicy: "unsafe-url",
+            }
           );
           if (!res.ok)
             throw new Error("Something went wrong with fetching weather");

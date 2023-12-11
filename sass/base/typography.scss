@@ -28,7 +28,7 @@ body {
   display: grid;
   text-transform: uppercase;
   background-color: $color-gray-body;
-  transform: translateY(-15rem);
+  // transform: translateY(-15rem);
   position: relative;
   z-index: -1;
   &--main {
