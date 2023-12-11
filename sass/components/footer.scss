@@ -1,0 +1,17 @@
+.footer {
+  background-color: $color-primary-light;
+  padding: 3rem 0;
+  text-align: center;
+  height: 30rem;
+  transform: translateY(-15rem);
+  margin-bottom: -15rem;
+  &-row {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    font-size: 5rem;
+  }
+  &-text {
+    font-size: 2rem;
+  }
+}

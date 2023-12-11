@@ -1,0 +1,13 @@
+.error {
+  display: grid;
+  place-content: center;
+  margin-top: 10%;
+  &-text {
+    display: flex;
+    gap: 4rem;
+    font-size: 5rem;
+    &-sign {
+      color: red;
+    }
+  }
+}

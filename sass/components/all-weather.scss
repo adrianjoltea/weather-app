@@ -1,0 +1,10 @@
+.main__weather {
+  width: 100%;
+  max-height: 70rem;
+  padding: 5rem;
+  transform: translateY(-15rem);
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  background-color: $color-gray-body;
+}

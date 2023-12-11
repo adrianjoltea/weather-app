@@ -1,0 +1,13 @@
+.header__primary {
+  height: 75vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.801),
+      rgba($color-primary-dark, 0.803)
+    ),
+    url(../image/header-img.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  z-index: 0;
+}
